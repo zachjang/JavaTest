@@ -16,7 +16,7 @@ public class testSort {
 
     @Test
     public void testInsertion() {
-        System.out.println("selection:");
+        System.out.println("Insertion Sort:");
         insertionSort sort = new insertionSort();
         assertArrayEquals(new int[] {1,2,3}, sort.insertion(new int[] {3,1,2}));
         assertArrayEquals(new int[] {1,2,3,4}, sort.insertion(new int[] {3,1,4,2}));
@@ -30,7 +30,7 @@ public class testSort {
 
     @Test
     public void testQuick() {
-        System.out.println("quick:");
+        System.out.println("Quick Sort:");
         quickSort ob = new quickSort();
         assertArrayEquals(new int[] {1,2,3}, ob.sort(new int[] {3,1,2}, 0, 2));
         assertArrayEquals(new int[] {1,2,3,4}, ob.sort(new int[] {3,1,4,2}, 0, 3));
@@ -44,7 +44,7 @@ public class testSort {
 
     @Test
     public void testHeap() {
-        System.out.println("heap");
+        System.out.println("Heap Sort");
         heapSort ob = new heapSort();
         assertArrayEquals(new int[] {1,2,3}, ob.sort(new int[] {3,1,2}));
         assertArrayEquals(new int[] {1,2,3,4}, ob.sort(new int[] {3,1,4,2}));
@@ -58,7 +58,7 @@ public class testSort {
 
     @Test
     public void testCounting() {
-        System.out.println("counting");
+        System.out.println("Counting Sort");
         countingSort ob = new countingSort();
         assertArrayEquals(new int[] {1,2,3}, ob.sort(new int[] {3,1,2}));
         assertArrayEquals(new int[] {1,2,3,4}, ob.sort(new int[] {3,1,4,2}));
@@ -72,7 +72,7 @@ public class testSort {
     
     @Test
     public void testShell() {
-    	System.out.println("shell");
+    	System.out.println("Shell Sort");
     	shellSort ob = new shellSort();
     	assertArrayEquals(new int[] {1,2,3}, ob.sort(new int[] {3,1,2}));
     	assertArrayEquals(new int[] {1,2,3,4}, ob.sort(new int[] {3,1,4,2}));
