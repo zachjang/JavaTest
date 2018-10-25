@@ -16,7 +16,7 @@ public class testSort {
 
     @Test
     public void testInsertion() {
-        System.out.println("Insertion Sort:");
+        System.out.println("Insertion Sort");
         insertionSort sort = new insertionSort();
         assertArrayEquals(new int[] {1,2,3}, sort.insertion(new int[] {3,1,2}));
         assertArrayEquals(new int[] {1,2,3,4}, sort.insertion(new int[] {3,1,4,2}));
@@ -30,7 +30,7 @@ public class testSort {
 
     @Test
     public void testQuick() {
-        System.out.println("Quick Sort:");
+        System.out.println("Quick Sort");
         quickSort ob = new quickSort();
         assertArrayEquals(new int[] {1,2,3}, ob.sort(new int[] {3,1,2}, 0, 2));
         assertArrayEquals(new int[] {1,2,3,4}, ob.sort(new int[] {3,1,4,2}, 0, 3));
