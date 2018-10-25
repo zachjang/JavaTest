@@ -25,7 +25,7 @@ public class Sort {
 	public int[] selection(int[] arr) {
 		int n = arr.length;
 		 
-        // One by one move boundary of unsorted subarray
+        // One by one move boundary of unsorted sub-array
         for (int i = 0; i < n-1; i++)
         {
             // Find the minimum element in unsorted array
