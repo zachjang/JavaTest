@@ -69,6 +69,6 @@ public class testSort {
     	assertArrayEquals(new int[] {1,2,3,4,5,6,7,8}, ob.sort(new int[] {7,8,4,5,6,3,1,2}, 0, 7));
     	assertArrayEquals(new int[] {1,2,3,4,5,6,7,8,9}, ob.sort(new int[] {6,4,9,5,7,8,3,1,2}, 0, 8));
     	assertArrayEquals(new int[] {1,2,3,4,5,6,7,8,9,10}, ob.sort(new int[] {10,4,5,8,9,6,7,3,1,2}, 0, 9));
-        }
+    	}
 
     }
