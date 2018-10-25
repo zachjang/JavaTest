@@ -74,13 +74,13 @@ public class testSort {
     public void testShell() {
     	System.out.println("shell");
     	shellSort ob = new shellSort();
-        assertArrayEquals(new int[] {1,2,3}, ob.sort(new int[] {3,1,2}));
-        assertArrayEquals(new int[] {1,2,3,4}, ob.sort(new int[] {3,1,4,2}));
-        assertArrayEquals(new int[] {1,2,3,4,5}, ob.sort(new int[] {3,5,1,4,2}));
-        assertArrayEquals(new int[] {1,2,3,4,5,6}, ob.sort(new int[] {6,4,5,3,1,2}));
-        assertArrayEquals(new int[] {1,2,3,4,5,6,7}, ob.sort(new int[] {4,5,7,6,3,1,2}));
-        assertArrayEquals(new int[] {1,2,3,4,5,6,7,8}, ob.sort(new int[] {7,8,4,5,6,3,1,2}));
-        assertArrayEquals(new int[] {1,2,3,4,5,6,7,8,9}, ob.sort(new int[] {6,4,9,5,7,8,3,1,2}));
-        assertArrayEquals(new int[] {1,2,3,4,5,6,7,8,9,10}, ob.sort(new int[] {10,4,5,8,9,6,7,3,1,2}));
+    	assertArrayEquals(new int[] {1,2,3}, ob.sort(new int[] {3,1,2}));
+    	assertArrayEquals(new int[] {1,2,3,4}, ob.sort(new int[] {3,1,4,2}));
+    	assertArrayEquals(new int[] {1,2,3,4,5}, ob.sort(new int[] {3,5,1,4,2}));
+    	assertArrayEquals(new int[] {1,2,3,4,5,6}, ob.sort(new int[] {6,4,5,3,1,2}));
+    	assertArrayEquals(new int[] {1,2,3,4,5,6,7}, ob.sort(new int[] {4,5,7,6,3,1,2}));
+    	assertArrayEquals(new int[] {1,2,3,4,5,6,7,8}, ob.sort(new int[] {7,8,4,5,6,3,1,2}));
+    	assertArrayEquals(new int[] {1,2,3,4,5,6,7,8,9}, ob.sort(new int[] {6,4,9,5,7,8,3,1,2}));
+    	assertArrayEquals(new int[] {1,2,3,4,5,6,7,8,9,10}, ob.sort(new int[] {10,4,5,8,9,6,7,3,1,2}));
     	}
 }
