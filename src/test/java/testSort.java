@@ -16,7 +16,7 @@ public class testSort {
 
     @Test
     public void testBubble() {
-        fail("Not yet implemented");
+//        fail("Not yet implemented");
         System.out.println("bubble:");
         Sort sort = new Sort();
         assertArrayEquals(new int[] {1,2,3}, sort.bubble(new int[] {3,1,2}));
@@ -31,7 +31,7 @@ public class testSort {
 
     @Test
     public void testSeleciton() {
-        fail("Not yet implemented");
+//        fail("Not yet implemented");
         System.out.println("selection:");
         Sort sort = new Sort();
         assertArrayEquals(new int[] {1,2,3}, sort.selection(new int[] {3,1,2}));
@@ -46,7 +46,7 @@ public class testSort {
 
     @Test
     public void testInserton() {
-        fail("Not yet implemented");
+//        fail("Not yet implemented");
         System.out.println("selection:");
         Sort sort = new Sort();
         assertArrayEquals(new int[] {1,2,3}, sort.insertion(new int[] {3,1,2}));
